@@ -1,0 +1,32 @@
+@import './reset';
+@import './sticky';
+
+section{
+    width: $full;
+    max-width: 1240px;
+    margin: 50px auto;
+    @media screen and (min-width: 280px) and (max-width: 800px){
+        padding: 20px;
+        margin-bottom: 60px;
+    }
+        #goBack{
+            border:1px #ededed solid;
+            border-radius: 4px;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size:12px;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            margin-bottom: 20px;
+                &:focus{
+                    outline: $zero;
+                }
+        }
+        .slick-dots{
+            width: $full / 2 + 9;
+            transform: translate(-50%, -50%);
+            left: $full / 2;
+            bottom: -23%;
+        }
+}

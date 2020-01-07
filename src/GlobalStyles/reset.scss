@@ -1,0 +1,9 @@
+@import './variables';
+*{
+    margin:$zero;
+    padding: $zero;
+    box-sizing: border-box;
+}
+li{
+    list-style-type: $none;
+}

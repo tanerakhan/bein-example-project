@@ -1,0 +1,13 @@
+html, body, #digiturk {
+    height: $full;
+  }
+  #digiturk{
+    display: flex;
+    flex-direction: column;   
+  }
+  section {
+    flex: 1 $zero auto;
+  }
+  footer {
+    flex-shrink: $zero;
+  }
